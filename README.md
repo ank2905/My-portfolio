@@ -1,1 +1,197 @@
-# My-portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ankur Raj | DevOps & Cloud Engineer</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+    }
+
+    body {
+      background-color: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #020617);
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+    }
+
+    header h2 {
+      font-weight: 400;
+      margin-top: 10px;
+      color: #cbd5f5;
+    }
+
+    header p {
+      margin-top: 15px;
+      color: #94a3b8;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    h3 {
+      font-size: 1.8rem;
+      margin-bottom: 25px;
+      border-left: 5px solid #38bdf8;
+      padding-left: 12px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #020617;
+      border: 1px solid #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .card h4 {
+      margin-bottom: 10px;
+      color: #38bdf8;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      background: #020617;
+      text-align: center;
+      padding: 30px;
+      color: #94a3b8;
+      font-size: 0.9rem;
+    }
+
+    .contact p {
+      margin: 8px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 18px;
+      border-radius: 6px;
+      background: #38bdf8;
+      color: #020617;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Ankur Raj</h1>
+  <h2>DevOps Engineer & Cloud Engineer (Beginner)</h2>
+  <p>Student | India</p>
+</header>
+
+<section>
+  <h3>👨‍💻 About Me</h3>
+  <p>
+    I am a passionate student learning <strong>DevOps, Cloud Computing, and Web Development</strong>.
+    I enjoy working with Linux environments, containerization tools, and version control systems.
+    My goal is to become a skilled DevOps engineer by building real-world projects and mastering cloud technologies.
+  </p>
+</section>
+
+<section>
+  <h3>🧠 Skills</h3>
+  <div class="grid">
+    <div class="card">
+      <h4>Programming</h4>
+      <ul>
+        <li>C++</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h4>Frontend</h4>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h4>Database</h4>
+      <ul>
+        <li>MySQL</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h4>DevOps & Tools</h4>
+      <ul>
+        <li>Git & GitHub</li>
+        <li>Docker</li>
+        <li>Linux</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h3>☁️ Areas of Interest</h3>
+  <div class="grid">
+    <div class="card">Web Development</div>
+    <div class="card">DevOps Engineering</div>
+    <div class="card">Cloud Computing</div>
+    <div class="card">Data Structures & Algorithms</div>
+    <div class="card">Artificial Intelligence</div>
+  </div>
+</section>
+
+<section>
+  <h3>🚀 Projects</h3>
+  <div class="card">
+    <p>
+      Currently building hands-on projects in <strong>Web Development, Docker, and Linux</strong>.
+      More real-world DevOps and cloud projects will be added soon.
+    </p>
+  </div>
+</section>
+
+<section class="contact">
+  <h3>📫 Contact</h3>
+  <p>📧 Email: <a href="mailto:akurrraj@gmail.com">akurrraj@gmail.com</a></p>
+  <p>🌐 Portfolio: <a href="https://ank2905.github.io/My-portfolio" target="_blank">ank2905.github.io/My-portfolio</a></p>
+  <p>🐙 GitHub: <a href="https://github.com/ankur2905" target="_blank">github.com/ankur2905</a></p>
+
+  <a class="btn" href="https://github.com/ankur2905" target="_blank">View GitHub</a>
+</section>
+
+<footer>
+  © 2026 Ankur Raj • DevOps & Cloud Engineer (Beginner)
+</footer>
+
+</body>
+</html>
