@@ -10,11 +10,11 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-family: "Segoe UI", Tahoma, sans-serif;
     }
 
     body {
-      background: #0f172a;
+      background-color: #0f172a;
       color: #e5e7eb;
       line-height: 1.6;
     }
@@ -25,64 +25,81 @@
     }
 
     header {
-      background: linear-gradient(135deg, #1e3a8a, #0f172a);
-      padding: 60px 20px;
+      background: linear-gradient(135deg, #1e3a8a, #020617);
+      padding: 70px 20px;
       text-align: center;
     }
 
     header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
+      font-size: 2.8rem;
     }
 
     header h2 {
-      font-size: 1.2rem;
       font-weight: 400;
+      margin-top: 10px;
       color: #cbd5f5;
     }
 
     header p {
       margin-top: 15px;
-      font-size: 1rem;
-      color: #cbd5f5;
+      color: #94a3b8;
     }
 
     section {
       max-width: 1000px;
       margin: auto;
-      padding: 50px 20px;
+      padding: 60px 20px;
     }
 
     h3 {
-      font-size: 1.6rem;
-      margin-bottom: 20px;
+      font-size: 1.8rem;
+      margin-bottom: 25px;
       border-left: 5px solid #38bdf8;
-      padding-left: 10px;
+      padding-left: 12px;
     }
 
-    .skills, .interests {
+    .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 15px;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
     }
 
     .card {
       background: #020617;
-      padding: 15px;
-      border-radius: 8px;
       border: 1px solid #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .card h4 {
+      margin-bottom: 10px;
+      color: #38bdf8;
+    }
+
+    ul {
+      padding-left: 20px;
     }
 
     footer {
       background: #020617;
       text-align: center;
-      padding: 25px;
-      font-size: 0.9rem;
+      padding: 30px;
       color: #94a3b8;
+      font-size: 0.9rem;
     }
 
     .contact p {
       margin: 8px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 18px;
+      border-radius: 6px;
+      background: #38bdf8;
+      color: #020617;
+      font-weight: 600;
     }
   </style>
 </head>
@@ -98,6 +115,83 @@
 <section>
   <h3>👨‍💻 About Me</h3>
   <p>
-    I am a motivated student with a strong interest in <b>DevOps, Cloud Computing, and Web Development</b>.
-    I enjoy learning modern technologies and building real-world skills using Linux, Docker, Git, and cloud tools.
-    Currently, I am strengthening my
+    I am a passionate student learning <strong>DevOps, Cloud Computing, and Web Development</strong>.
+    I enjoy working with Linux environments, containerization tools, and version control systems.
+    My goal is to become a skilled DevOps engineer by building real-world projects and mastering cloud technologies.
+  </p>
+</section>
+
+<section>
+  <h3>🧠 Skills</h3>
+  <div class="grid">
+    <div class="card">
+      <h4>Programming</h4>
+      <ul>
+        <li>C++</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h4>Frontend</h4>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h4>Database</h4>
+      <ul>
+        <li>MySQL</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h4>DevOps & Tools</h4>
+      <ul>
+        <li>Git & GitHub</li>
+        <li>Docker</li>
+        <li>Linux</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h3>☁️ Areas of Interest</h3>
+  <div class="grid">
+    <div class="card">Web Development</div>
+    <div class="card">DevOps Engineering</div>
+    <div class="card">Cloud Computing</div>
+    <div class="card">Data Structures & Algorithms</div>
+    <div class="card">Artificial Intelligence</div>
+  </div>
+</section>
+
+<section>
+  <h3>🚀 Projects</h3>
+  <div class="card">
+    <p>
+      Currently building hands-on projects in <strong>Web Development, Docker, and Linux</strong>.
+      More real-world DevOps and cloud projects will be added soon.
+    </p>
+  </div>
+</section>
+
+<section class="contact">
+  <h3>📫 Contact</h3>
+  <p>📧 Email: <a href="mailto:akurrraj@gmail.com">akurrraj@gmail.com</a></p>
+  <p>🌐 Portfolio: <a href="https://ank2905.github.io/My-portfolio" target="_blank">ank2905.github.io/My-portfolio</a></p>
+  <p>🐙 GitHub: <a href="https://github.com/ankur2905" target="_blank">github.com/ankur2905</a></p>
+
+  <a class="btn" href="https://github.com/ankur2905" target="_blank">View GitHub</a>
+</section>
+
+<footer>
+  © 2026 Ankur Raj • DevOps & Cloud Engineer (Beginner)
+</footer>
+
+</body>
+</html>
